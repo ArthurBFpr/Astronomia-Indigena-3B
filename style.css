@@ -64,7 +64,6 @@ h2 { color: var(--ouro); border-bottom: 1px solid var(--ouro); padding-bottom: 1
 .lista-fontes { font-size: 0.85rem; color: #999; list-style: none; padding: 0; }
 .lista-fontes li { padding: 10px; border-radius: 5px; margin-bottom: 5px; }
 
-/* Efeito de destaque quando clica na citação */
 .lista-fontes li:target {
     background-color: #d4af3733;
     color: #fff;
@@ -80,3 +79,27 @@ h2 { color: var(--ouro); border-bottom: 1px solid var(--ouro); padding-bottom: 1
 }
 
 footer { text-align: center; padding: 50px; background: #000; color: #555; font-size: 0.8rem; }
+
+.lista-fontes a {
+    color: var(--ouro);
+    text-decoration: none;
+}
+
+.lista-fontes a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.lista-fontes .data-acesso {
+    display: inline-block;
+    color: #e0e0e0;
+    font-size: 0.95em;
+    margin-top: 4px;
+}
+
+.lista-fontes li {
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 12px;
+    line-height: 1.8;
+}
